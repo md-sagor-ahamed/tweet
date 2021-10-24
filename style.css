@@ -69,12 +69,14 @@ h1{
 }
 
 .collection {
-    list-style-type: none;
+    /* list-style-type: none; */
     width: 100%;
-    padding-left: 0;
 }
 
 .collection li:nth-child(even){
     background: rgb(223, 223, 223);
     width: 100%;
+}
+.alertMsg{
+    padding: 10px 25px;
 }
