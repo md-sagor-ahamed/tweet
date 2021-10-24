@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(blue, yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 300px;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
+    color: #fff;
+}
+.containerWrapper{
+    margin-top: 20px;
+}
+.left-content{
+    background: #fff;
+    padding: 50px;
+    width: 450px;
+    height: 300px;
+    margin-right: 40px;
+}
+.inputTweet{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    margin-top: 50px;
+}
+.submitTweet{
+    width: 100%;
+    background: lightblue;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    transition: .5s;
+}
+.submitTweet:hover{
+    background: rgb(109, 150, 163);
+}
+.right-content{
+    background: #fff;
+    width: 100%;
+    padding: 20px 0;
+}
+.searchTweet{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 20px 20px;
+    width: 95%;
+}
+.product-collection-item{
+    padding: 8px 20px;
+    width: 100%;
+}
+.delete-tweet{
+    color: red;
+    cursor: pointer;
+}
+
+.collection {
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0;
+}
+
+.collection li:nth-child(even){
+    background: rgb(223, 223, 223);
+    width: 100%;
+}
